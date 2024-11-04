@@ -1,0 +1,203 @@
+body {
+    font-family: 'Playfair Display', 'Libre Baskerville', serif; /* More elegant serif fonts */
+    background-color: #F5E6D3;
+    color: #2C1810; /* Rich dark brown for better readability */
+	background-image: url('/Users/anushamylavarapu/Desktop/drag 2/bookstore.jpeg');
+    background-size: cover; /* Adjusts the image to cover the entire background */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+}
+.instructions {
+    text-align: center; /* Center the instruction text */
+    font-family: 'Cormorant Garamond', serif; /* Elegant serif font */
+    font-size: 1.2em; /* Slightly increase the font size */
+    color: #e0e6e2; /* Darker color for better visibility */
+    margin: 20px 0; /* Add some margin above and below */
+}
+
+#footer {
+    height: 40px;
+    vertical-align: middle;
+    text-align: right;
+    clear: both;
+    padding-right: 10px;
+    background-color: #8B4513; /* Dark leather brown */
+    color: #F5E6D3; /* Aged paper color for text */
+    margin-top: 2px;
+    width: 790px;
+    font-weight: bold;
+    font-family: 'Cormorant Garamond', serif;
+    color: #FFF5E6; /* Warmer white color */
+    font-weight: 500; /* Slightly reduced from bold for elegance */
+}
+
+#dhtmlgoodies_listOfItems div p {
+    font-family: 'Playfair Display', serif;
+    color: #FFF5E6; /* Warmer white */
+    font-weight: 600;
+    letter-spacing: 0.5px; /* Better letter spacing for headers */
+}
+
+#footer form {
+    margin: 0px;
+    margin-top: 5px;
+}
+
+#dhtmlgoodies_dragDropContainer {
+    width: 790px;
+    height: 770px;
+    border: 2px solid #8B4513; /* Leather brown border */
+    background-color: #FFF9F0; /* Light parchment color */
+    -moz-user-select: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Book-like shadow */
+    border-radius: 10px; /* Rounded corners for the main container */
+    margin: auto; /* Center the container */
+}
+
+#dhtmlgoodies_dragDropContainer ul {
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+.stylish-title {
+    font-size: 3em; /* Adjust the size as needed */
+    font-weight: bold;
+    color:#49763b; /* You can choose any color you like */
+    text-align: center; /* Center the title */
+    text-transform: uppercase; /* Make the text uppercase */
+    letter-spacing: 2px; /* Add space between letters */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    margin: 20px 0; /* Add some margin above and below the title */
+	font-family: 'Cinzel', serif;
+}
+
+#dhtmlgoodies_dragDropContainer li,
+#dragContent li,
+li#indicateDestination {
+    list-style-type: none;
+    height: 30px;
+    background-color: #FAF0E6; /* Linen color for book pages */
+    border: 1px solid #8B4513; /* Leather brown border */
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 30px;
+    transition: all 0.3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle page shadow */
+    border-radius: 5px; /* Rounded corners for list items */
+}
+
+#dhtmlgoodies_dragDropContainer ul li.correctAnswer {
+    background-color: #556B2F; /* Dark olive green for correct answers */
+    color: #FAF0E6;
+}
+
+#dhtmlgoodies_dragDropContainer ul li.wrongAnswer {
+    background-color: #8B0000; /* Dark red for wrong answers */
+    color: #FAF0E6;
+}
+
+/* LEFT COLUMN CSS */
+div#dhtmlgoodies_listOfItems {
+    float: left;
+    padding: 10px;
+    width: 180px;
+    background-color: #FFF9F0; /* Light parchment color */
+    border-radius: 10px; /* Rounded corners for left column */
+}
+
+#dhtmlgoodies_listOfItems ul {
+    height: 560px;
+}
+
+div#dhtmlgoodies_listOfItems div {
+    border: 1px solid #8B4513; /* Leather brown border */
+    border-radius: 5px; /* Rounded corners for items in left column */
+}
+
+div#dhtmlgoodies_listOfItems div ul {
+    margin-left: 10px;
+}
+
+#dhtmlgoodies_listOfItems div p {
+    margin: 0px;
+    font-weight: bold;
+    padding: 10px;
+    background-color: #8B4513; /* Leather brown */
+    color: #F5E6D3;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6B3410; /* Darker leather accent */
+}
+
+/* END LEFT COLUMN CSS */
+
+#dhtmlgoodies_dragDropContainer .mouseover {
+    background-color: #DEB887; /* Burlywood color for hover */
+    border: 1px solid #8B4513;
+}
+
+/* Start main container CSS */
+div#dhtmlgoodies_mainContainer {
+    width: 590px;
+    float: left;
+    margin: auto; /* Center the main container */
+}
+
+#dhtmlgoodies_mainContainer div {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    border: 1px solid #8B4513; /* Leather brown border */
+    width: 172px; /* Increase this value to make the boxes longer */
+    background-color: #FFF9F0; /* Light parchment color */
+    border-radius: 5px; /* Rounded corners for main container items */
+}
+
+#dhtmlgoodies_mainContainer div ul {
+    margin-left: 10px;
+}
+
+#dhtmlgoodies_mainContainer div p {
+    margin: 0px;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #8B4513; /* Leather brown */
+    color: #F5E6D3;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #6B3410; /* Darker leather accent */
+}
+
+#dhtmlgoodies_mainContainer ul {
+    width: 152px;
+    height: 80px;
+    border: 0px;
+    margin-bottom: 0px;
+    overflow: hidden;
+}
+
+#dragContent {
+    position: absolute;
+    width: 150px;
+    height: 15px;
+    display: none;
+    margin: 0px;
+    padding: 0px;
+    z-index: 2000;
+}
+
+#dragDropIndicator {
+    position: absolute;
+    width: 7px;
+    height: 10px;
+    display: none;
+    z-index: 1000;
+    margin: 0px;
+    padding: 0px;
+}
+
+.style1 {
+    color: #8B0000; /* Dark red */
+}

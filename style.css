@@ -2,7 +2,7 @@ body {
     font-family: 'Playfair Display', 'Libre Baskerville', serif; /* More elegant serif fonts */
     background-color: #F5E6D3;
     color: #2C1810; /* Rich dark brown for better readability */
-	background-image: url('/Users/anushamylavarapu/Desktop/drag 2/bookstore.jpeg');
+	background-image: url('bookstore.jpeg');
     background-size: cover; /* Adjusts the image to cover the entire background */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
